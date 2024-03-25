@@ -1,8 +1,7 @@
-import { Card } from '@/components/ui/card'
-import React from 'react'
+
 import StackChip from './StackChip/StackChip'
 import { Button } from '@/components/ui/button'
-import { Link, Link2 } from 'lucide-react'
+import { Link2 } from 'lucide-react'
 
 const ProjectContainer = ({desc,image,link,stack,title}:Project) => {
   return (

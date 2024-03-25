@@ -1,4 +1,3 @@
-import React from "react";
 
 function HeaderSVG({h,w}:Icon) {
   return (
