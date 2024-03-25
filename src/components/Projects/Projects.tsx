@@ -2,7 +2,7 @@ import ProjectContainer from './ProjectContainer/ProjectContainer'
 
 const Projects = () => {
   return (
-    <div className='px-5 md:px-20'>
+    <div className='px-5 md:px-20 mt-20 md:mt-0' id='projects'>
         <p className='text-3xl font-extrabold md:text-4xl text-black'>Some Projects<span className='h-[5px] w-[5px] rounded-full gdText text-5xl ml-0.5'>.</span> </p>
         <p className='text-sm text-gray-500 mt-2'>Here Are Some Projects Done By Me</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-3 mt-5">
